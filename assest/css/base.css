@@ -1,0 +1,129 @@
+:root {
+    --primary-color: #f06394;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --price-color: #ee4d2d;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -12px;
+}
+
+.col-half {
+    padding: 12px;
+    width: 50%;
+}
+
+.col-full {
+    padding: 12px;
+    width: 100%;
+}
+
+.col-1 {
+    padding: 12px;
+    width: 8.33334%;
+}
+
+.col-1-9 {
+    padding: 12px;
+    width: 11.1111%;
+}
+
+.col-2 {
+    padding: 12px;
+    width: 16.66667%;
+}
+
+.col-2-4 {
+    padding: 12px;
+    width: 20%;
+}
+
+.col-3 {
+    padding: 12px;
+    width: 25%;
+}
+
+.col-4 {
+    padding: 12px;
+    width: 33.33333%;
+}
+
+.col-5 {
+    padding: 12px;
+    width: 41.66666%;
+}
+
+.col-7 {
+    padding: 12px;
+    width: 58.33334%;
+}
+
+.col-8 {
+    padding: 12px;
+    width: 66.66667%;
+}
+
+.col-9 {
+    padding: 12px;
+    width: 75%;
+}
+
+.col-10 {
+    padding: 12px;
+    width: 83.33333%;
+}
+
+.col-11 {
+    padding: 12px;
+    width: 91.66666%;
+}
+
+.fs-1rem {
+    font-size: 1rem;
+}
+
+.fs-1-2rem{
+    font-size: 1.2rem;
+}
+
+.fs-1-4rem {
+    font-size: 1.4rem;
+}
+
+.bgr-white {
+    background-color: #fff;
+}
+
+.bgr-grey {
+    background-color: #ccc;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+    color: red;
+}

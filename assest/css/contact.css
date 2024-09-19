@@ -1,0 +1,42 @@
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+
+.contact-detail {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.contact-head {
+    font-weight: bold;
+}
+
+.contact-text,
+.contact-links {
+    font-weight: lighter;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.contact-links:hover {
+    color: var(--primary-color);
+}
+
+.contact-seperate {
+    border-color: #000;
+}
+.map {
+    width: 100%;
+    height: 600px;
+}

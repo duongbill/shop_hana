@@ -1,0 +1,292 @@
+/* About */
+
+.container {
+    position: relative;
+}
+
+.detail-about {
+    background-color: var(--white-color);
+}
+
+.detail-about-footer {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.detail-share {
+    display: flex;
+    align-items: center;
+}
+
+.detail-share-text {
+
+}
+
+.detail-share-icon {
+    padding-left: 4px;
+    font-size: 2.2rem;
+}
+
+.detail-share-msg {
+    color: #0384ff;
+}
+
+.detail-share-face {
+    color: #3b5999;
+}
+
+.detail-share-pin {
+    color: #de0217;
+}
+
+.detail-share-twit {
+    color: #10c2ff;
+}
+
+.detail-like {
+    
+}
+
+.detail-like-icon {
+    color: #ff424f;
+    font-size: 2.2rem;
+
+}
+
+.detail-like-text {
+    margin-left: 8px;
+}
+
+
+.detail-share-icon:hover,
+.detail-like-icon:hover {
+    cursor: pointer;
+}
+
+/* Detail body */
+
+
+.detail-body {
+    font-size: 1.4rem;
+    color: #757575;
+    background-color: #fff;
+}
+
+.detail-name {
+    padding: 10px 0;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+.detail-evaluate {
+    display: flex;
+}
+
+.detail-rating {
+    display: flex;
+    align-items: center;
+    color: #ee4d2d;
+}
+
+.detail-rating-nums {
+    font-size: 1.7rem;
+    border-bottom: 1px solid #ee4d2d;
+    margin-right: 4px
+}
+
+.detail-evaluate-text {
+    margin-left: 38px;
+}
+
+.detail-evaluate-text-head {
+    font-size: 1.7rem;
+    color: #000;
+}
+
+.detail-price {
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    height: 66px;
+    align-items: center;
+    padding: 0 18px;
+    margin-top: 16px;
+}
+
+.detail-price-old {
+    font-size: 1.8rem;
+    text-decoration: line-through;
+}
+
+.detail-price-new {
+    font-size: 3rem;
+    margin: 0 10px;
+    color: #ee4d2d;
+}
+
+.detail-price-sales {
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.detail-ship {
+    margin: 16px 0 0 16px;
+}
+
+.detail-ship-head {
+    margin-right: 40px;
+}
+
+.detail-ship-icon {
+    color: #26aa99;
+    margin-right: 12px;
+}
+
+.detail-ship-text {
+    
+
+}
+
+.detail-qnt {
+    margin: 16px 0 32px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.detail-qnt-text {
+    margin-right: 50px;
+}
+
+.detail-qnt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-radius: 2px;
+    color: rgba(0, 0, 0, .8);
+    cursor: pointer;
+    font-weight: 300;
+    height: 32px;
+    min-width: 32px;
+    margin: 0 12px 0 0;
+}
+
+.detail-qnt-btn-icon-minus {
+    padding: 0 10px;
+    border-right: 1px solid rgba(0, 0, 0, .09);
+    height: 32px;
+    line-height: 32px;
+}
+
+.detail-qnt-btn-icon-plus {
+    padding: 0 10px;
+    border-left: 1px solid rgba(0, 0, 0, .09);
+    height: 32px;
+    line-height: 32px;
+}
+
+.detail-qnt-btn-nums {
+    font-size: 1.7rem;
+    color: #000;
+    padding: 0 22px;
+}
+
+.detail-qnt-desc {
+    
+}
+
+.detail-cart-btn {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    background: #ffe5ff;
+    padding: 18px 20px;
+    color: #fa6a1f;
+    margin-right: 16px;
+    width: 178px;
+    
+}
+
+.detail-buy-btn {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--primary-color);
+    border-style: var(--primary-color);
+    padding: 18px 20px;
+    color: #fff;
+    width: 178px;
+    text-align: center;
+}
+
+
+.detail-buy-btn:hover {
+    opacity: 0.8;
+}
+
+.detail-btn {
+    margin-top: 144px
+}
+
+/* Desc */
+.detail-desc {
+    margin: 28pxs;
+}
+
+.detail-desc-1 {
+    
+}
+
+.detail-desc-heading {
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, .02);
+    padding: 22px 12px;
+}
+
+.detail-desc-content {
+    line-height: 2.4;
+}
+
+.detail-desc-head {
+    padding-left: 12px;
+    list-style: none;
+    
+}
+
+.detail-desc-head-text {
+    
+    color: rgba(0, 0, 0, .4);
+}
+
+.detail-desc-body {
+    padding-left: 0;
+    list-style: none;
+}
+
+.detail-desc-body-text {
+
+}
+
+.detail-desc-2 {
+    margin-top: 10px;
+}
+
+.detail-desc-text {
+    margin-left: 12px;
+    line-height: 2.4;
+}
+
+.detail-relate-head {
+    padding-bottom: 25px;
+    color: rgba(0, 0, 0, .4);
+
+}

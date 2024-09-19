@@ -1,0 +1,274 @@
+.pay-head {
+    font-weight: 500;
+}
+
+.pay-detail {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pay-home {
+
+}
+
+.pay-home-label {
+    font-size: 1.4rem;
+    color: rgb(120, 120, 120)
+}
+
+.pay-home-label-wrap {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    position: relative;
+}
+
+.pay-home-label-check {
+    width: 16px;
+    height: 26px;
+    border-radius: 2px;
+    border: 1px solid rgb(196, 196, 207);
+}
+
+.pay-home-label-check {
+    display: none;
+}
+
+
+.pay-home-label-text {
+
+}
+  /* Tạo kiểu cho label chứa checkbox */
+.pay-home-label-text {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+/* Tạo hình dạng cho checkbox tùy chỉnh */
+.pay-home-label-text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid gray; /* Viền màu xám */
+    background-color: #fff;
+    border-radius: 4px; /* Góc bo tròn (tuỳ chọn) */
+}
+
+/* Tạo dấu kiểm (checkmark) khi checkbox được chọn */
+.pay-home-label-check:checked + .pay-home-label-text::before {
+    background-color: #4CAF50; /* Màu nền khi checkbox được chọn */
+    border-color: #4CAF50;
+}
+
+.pay-home-label-check:checked + .pay-home-label-text::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+}
+
+
+
+.pay-home-title {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    color: rgb(120, 120, 120);
+}
+
+.pay-home-title-nums {
+    min-width: 70px;
+}
+
+.pay-home-title-pay {
+    min-width: 70px;
+}
+
+
+.pay-home-title-price {
+    min-width: 100px;
+}
+
+.pay-product {
+    margin-top: 34px;
+}
+
+.pay-product-wrap {
+    display: flex;
+}
+
+.pay-product-img {
+    width: 78px;
+    margin-right: 14px;
+}
+
+.pay-product-info {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 150%;
+    color: rgb(39, 39, 42);
+    letter-spacing: 1px;
+}
+
+.pay-product-name {
+
+}
+
+.pay-product-detail {
+    margin-top: 60px;
+    font-size: 1.6rem;
+}
+
+
+.pay-product-date {
+
+}
+
+
+.pay-product-price-old {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.pay-product-price-new {
+    font-weight: 600;
+    color: rgb(255, 66, 78) 
+}
+
+
+/* Ship */
+.pay-shipment {
+    font-size: 1.6rem;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pay-shipment-head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pay-shipment-head-text {
+    font-size: 1.6rem;
+    color: rgb(120, 120, 120);
+    font-weight: 300;
+}
+
+.pay-shipment-head-change {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.pay-shipment-body {
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+.pay-shipment-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.pay-shipment-name {
+
+}
+
+.pay-shipment-phone {
+
+}
+
+.pay-shipment-address {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: rgb(128, 128, 137)
+}
+
+.pay-shipment-address span {
+    color: rgb(252, 130, 10);
+    background-color: rgb(255, 245, 235);
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+
+/* Bill */
+.paybill {
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+
+.paybill-tmp {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.paybill-tmp-text {
+
+}
+
+.paybill-tmp-price {
+
+}
+
+.paybill-total {    
+    padding: 18px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paybill-total-text {
+
+}
+
+.paybill-total-content {
+    text-align: right;
+}
+
+.paybill-total-price {
+    color: rgb(254, 56, 52);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.paybill-total-content p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: rgb(128, 128, 137)
+}
+
+
+.paybutton {
+    width: 100%;
+    margin-top: 16px;
+    height: 40px;
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 6px
+}
+
+
